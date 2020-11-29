@@ -13,10 +13,8 @@ arch based distros can just run (as root)
 
 i would personally recommend you compile dmenu from source, to get the full suckless experience, however it is also available in most repos
 
-`wget http://dl.suckless.org/tools/dmenu-5.0.tar.gz
-
+- `wget http://dl.suckless.org/tools/dmenu-5.0.tar.gz
 cd dmenu-5.0
-
 sudo make clean install`
 
 # install
