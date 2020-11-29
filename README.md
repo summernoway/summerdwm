@@ -19,6 +19,24 @@ i would personally recommend you compile dmenu from source, to get the full suck
 - `sudo make clean install`
 
 # install
-cd into the folders and make clean install in all 3 folders to install
+clone the repo, cd into the folders and make clean install in all 3 folders to install
+
+- `git clone https://github.com/summernoway/summerdwm.git`
+- `cd summerdwm`
+- `cd dwm-6.2`
+- `sudo make clean install`
+- `cd ..`
+- `cd st-0.8.4`
+- `sudo make clean install`
+- `cd ..`
+- `cd slstatus`
+- `sudo make clean install`
 
 rename xinitrc to .xinitrc and move to your user's home folder
+
+- `cp xinitrc ~/.xinitrc`
+
+# running
+to run dwm, simply run the command `startx` from the console (not from a terminal emulator).
+
+the wallpaper will need to be manually set upon first startup, this can be done by using nitrogen (which can be run via either dmenu by pressing super+r or via the terminal, which can be run via super+return). this will only need to be done once
