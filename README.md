@@ -2,7 +2,7 @@
 my dwm fork/config
 
 # dependencies
-(please research where to get these packages from, most distros should have them in their repos, but in some cases they may need to be compiled)
+(please research where to get these packages from, most distros should have them in their repos, but in some cases they may need to be compiled from source)
 - picom
 - xorg
 - nitrogen
