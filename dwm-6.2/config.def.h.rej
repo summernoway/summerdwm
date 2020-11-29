@@ -1,0 +1,10 @@
+--- config.default.h	Sun Jun 10 11:31:13 2007
++++ config.default.h	Sun Jun 10 15:29:33 2007
+@@ -10,6 +10,7 @@
+ #define SELBORDERCOLOR		"#ff0000"
+ #define SELBGCOLOR		"#006699"
+ #define SELFGCOLOR		"#ffffff"
++#define CLOCKFORMAT		"- %H:%M:%S" /* see 'man strftime' */
+ 
+ /* tagging */
+ #define TAGS \
