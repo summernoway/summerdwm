@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# keyboard layout
+setxkbmap -layout gb
+
 # compositor
 compton -f &
 
